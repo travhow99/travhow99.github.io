@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+
+
+body {
+  background-color: #2B522E;
+  font-family: slabo;
+  font-size: 19px;
+  color: green;
+  padding-top: 65px;
+}
+
+.navbar {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  background-color: #49714C;
+}
+
+.nav li a:hover {
+  background-color: #2B522E;
+}
+
+.navbar-brand {
+  height: 60px;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar-header button {
+    background-color: #2B522E;
+    color: white;
+}
+
+.icon-bar {
+  background-color: white;
+}
+
+header {
+  background-image: url("http://res.cloudinary.com/dv7rtm1xa/image/upload/v1478965760/hangingLake_hekvet.jpg");
+  /*background-color: #2B522E;*/
+  color: white;
+  text-shadow: #000 0px 0px 1px;
+  text-align: center;
+  padding-top: 45vh;
+  height: 70vh;
+  width: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  margin-top: -25px;
+}
+
+#aboutMe {
+  color: #2B522E;
+  background-color: #8AA88C;
+  padding: 65px;
+  margin-top: -20px;
+  text-align: center;
+}
+
+#aboutMe p {
+  margin: 0 auto;
+  min-width: 70%;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+#portfolio {
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 65px;
+  padding-bottom: 240px;
+  margin-top: -10px;
+  border-top: 2px solid black;
+}
+
+#portfolio h4 {
+  color: black;
+}
+
+figure {
+  width: 350px;
+  max-width: 100%;
+  opacity: 0.5;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+figure:hover {
+  opacity: 0.9;
+}
+
+figure h4 {
+  color: white;
+}
+
+figcaption {
+  color: black;
+  display: none;
+  font-size: 17px;
+}
+
+.skills {
+  /*display: none;*/  
+}
+
+.skills li {
+  background-color: green;
+  color: white;
+  max-width: 100%;
+  border-radius: 4px;
+  padding: 4px 9px;
+  display: inline;
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+a {
+  max-width: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.project {
+  height: auto;
+  width: 350px;
+  max-width: 100%;
+}
+
+#contact {
+  height: 525px;
+  background-color: #8AA88C;
+  border-top: 2px solid black;
+  text-align: center;
+}
+
+#contact img {
+  width: 180px;
+  max-width: 50%;
+  border: 8px solid #8AA88C;
+  margin-top: -8%;
+  margin-left:-48%;
+}
+
+#contact h3 {
+  font-family: georgia;
+}
+
+form {
+  width: 80%;
+  text-align: center;
+  background-color: gray;
+  border-radius: 8px;
+  height: 63%;
+  max-height: 250px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+form input:focus, form textarea:focus {
+  border: 2px solid white;
+  box-shadow: red;
+}
+
+input[type='text'], input[type="email"] {
+  width: 48%;
+  border: 2px solid green;
+  margin-top: 10px;
+  background-color: gray;
+  color: white;
+}
+
+textarea {
+  width: 96.5%;
+  height: 60%;
+  margin-top: 10px;
+  padding-top: 0px;
+  background-color: gray;
+  border: 2px solid green;
+  color: silver;
+  resize: none;
+}
+
+input[type='submit']{
+  width: 96.5%;
+}
+
+footer {
+  width: 100%;
+  height: 28px;
+  background-color: #2B522E;
+  color: white;
+}
+
+#footerEmail {
+  color: white;
+}
+
+.footerInfo {
+  margin: 10px;
+}
+
+footer a {
+  overflow: hidden;  
+  }
+
+.invert {
+  filter: invert(100%);
+}
+
+#contactIcons {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  bottom: 0;
+}
+
+#icons {
+  padding: 0px;
+  margin-bottom: -70px;
+  margin-left: 10%;
+  list-style-type: none;
+  text-align: center;
+  width: 80%;
+}
+
+#icons li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.social-media {
+  height: 28px;
+  
+}
